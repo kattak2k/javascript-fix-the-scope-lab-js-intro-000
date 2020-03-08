@@ -41,7 +41,6 @@ describe('Fix the Scope', function() {
 
   describe("the variable 'theFunk'", function() {
     it('is equal to "FUNKY!"', function() {
-      debugger;
       expect(window.theFunk).toEqual('FUNKY!')
     })
   })
